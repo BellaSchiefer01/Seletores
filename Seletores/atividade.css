@@ -1,0 +1,31 @@
+.quadrado {
+display: inline-block;
+width: 200px;
+height: 200px;
+}
+
+.vermelho{
+background-color: red;
+}
+
+.amarelo{
+background-color: rgb(245, 241, 17);
+}
+
+.azul{
+background-color: rgb(20, 125, 211);
+}
+
+.verde {
+background-color: green;
+}
+#borda{
+border: -1.6px solid white
+}
+
+.quadrado:nth-child(1),
+.quadrado:nth-child(6),
+.quadrado:nth-child(25),
+.quadrado:nth-child(30) {
+border: 2px solid black;
+}
